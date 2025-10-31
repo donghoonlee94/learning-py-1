@@ -21,12 +21,14 @@ age = 2
 hobby = "sleep"
 is_adult = age >= 3
 
-#print("우리집 " + animal + "의 이름은 " + name + "이에요")
-#print(name + "은 " + str(age) + "살이며, " + ("어른일까요?" if is_adult else "어린이일까요?"))
-#print(name + "은 " , age , "살이며, ", ("어른일까요?" if is_adult else "어린이일까요?"))
+'''
+print("우리집 " + animal + "의 이름은 " + name + "이에요")
+print(name + "은 " + str(age) + "살이며, " + ("어른일까요?" if is_adult else "어린이일까요?"))
+print(name + "은 " , age , "살이며, ", ("어른일까요?" if is_adult else "어린이일까요?"))
 
-#print(f"우리집 {animal}의 이름은 {name}이에요")
-#print(f"{name}은 {age}살이며, {'어른일까요?' if is_adult else '어린이일까요?'}")
+print(f"우리집 {animal}의 이름은 {name}이에요")
+print(f"{name}은 {age}살이며, {'어른일까요?' if is_adult else '어린이일까요?'}")
+'''
 
 print(f"우리집 {animal}의 이름은 {name} 이에요")
 print(f"{name}은 {age}살이며 {('어른' if is_adult else '어린애')}")
