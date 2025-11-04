@@ -1,5 +1,6 @@
 # 사이트별로 비밀번호를 만들어주는 프로그램
-url = "http://naver.com"
+# url = "http://naver.com"
+url = "http://youtube.com"
 my_str = url.replace("http://", "")
 # 처음부터 . 이전까지 문자열 추출
 my_str = my_str[:my_str.index(".")]
